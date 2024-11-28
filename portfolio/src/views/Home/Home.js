@@ -6,6 +6,7 @@ import About from '../../components/About/About'
 import Education from '../../components/Education/Education'
 import Skill from '../../components/Skills/Skill'
 import Projects from '../../components/Projects/Projects'
+import Contact from '../../components/Contact/Contact'
 
 function Home() {
   return (
@@ -15,6 +16,7 @@ function Home() {
       <Education />
       <Skill />
       <Projects />
+      <Contact />
     </div>
   )
 }

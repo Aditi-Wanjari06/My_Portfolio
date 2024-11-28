@@ -1,18 +1,21 @@
 .edu-heading{
     font-size: 30px;
     text-align: start;
-  
+    font-family: "ADLaM Display", system-ui;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .education-container{
-    background-color: rgb(66, 65, 65); 
-    /* background-color: rgb(70, 68, 68); */
+     color: black;
+    background-color: white;
     padding: 20px;
     margin:10px auto;
 }
 
 .education-container h2{
     margin-bottom: 10px;
+    color: black;
 }
 
 .timeline-items{
@@ -21,6 +24,7 @@
     display: flex;
     flex-wrap: wrap;
     position: relative;
+    color: black;
 }
 
 .timeline-items::before{
@@ -51,31 +55,20 @@
     
 }
 
-/* .timeline-dot{
-    height: 21px;
-    width: 21px;
-    border-radius: 50%;
-    box-shadow: 0 0 25px blue;
-    position: absolute;
-    left: calc(50% - 8px);
-    top: 10px;
-    
-} */
 
 .timeline-date{
     font-size: 20px;
     font-weight: 800;
-    color: white;
     margin: 6px 0 15px;
 }
 
 .timeline-content{
-    border: 6px solid rgba(229, 62, 224, 0.1);
+  border: 2px solid black;
     padding: 15px 25px;
     border-radius: 4rem;
-    box-shadow: 0 0 10px rgba(168, 74, 164, 0.1);
     cursor: pointer;
     transition: 0.3s ease-in-out;
+    color: black;
 }
 
 .timeline-content:hover{
@@ -85,13 +78,13 @@
 
 .timeline-content h3{
     font-size: 20px;
-    color: white;
+
     margin: 0 0 10px;
     font-weight: 500;
 }
 
 .timeline-content p {
-    color: white;
+  
     font-size: 16px;
     font-weight: 300;
     line-height: 22px;
