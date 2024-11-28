@@ -1,12 +1,14 @@
 .edu-heading{
     font-size: 30px;
-    text-align: center;
-    margin: 5rem 0;
+    text-align: start;
+  
 }
 
 .education-container{
     background-color: rgb(66, 65, 65); 
     /* background-color: rgb(70, 68, 68); */
+    padding: 20px;
+    margin:10px auto;
 }
 
 .education-container h2{
@@ -68,10 +70,10 @@
 }
 
 .timeline-content{
-    border: 3px solid rgb(65, 164, 198);
+    border: 6px solid rgba(229, 62, 224, 0.1);
     padding: 15px 25px;
     border-radius: 4rem;
-    box-shadow: 0 0 10px rgb(65, 164, 198);
+    box-shadow: 0 0 10px rgba(168, 74, 164, 0.1);
     cursor: pointer;
     transition: 0.3s ease-in-out;
 }

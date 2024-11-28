@@ -1,0 +1,35 @@
+.skill-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .skill-card {
+    border: 3px solid white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(230, 32, 220, 0.1);
+    padding: 16px;
+    text-align: center;
+    width: 200px;
+ 
+  }
+  
+  .skill-heading {
+    text-align: start;
+    margin-bottom: 20px;
+    margin-left: 20px;
+  }
+
+  .skill-name{
+    color: rgb(141, 23, 141);
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .skill-lang{
+    font-size: 18px;
+    font-weight: lighter;
+  }
+  
