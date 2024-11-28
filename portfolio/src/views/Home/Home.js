@@ -5,6 +5,7 @@ import Navbar from '../../components/Navbar/Navbar'
 import About from '../../components/About/About'
 import Education from '../../components/Education/Education'
 import Skill from '../../components/Skills/Skill'
+import Projects from '../../components/Projects/Projects'
 
 function Home() {
   return (
@@ -13,6 +14,7 @@ function Home() {
       <About />
       <Education />
       <Skill />
+      <Projects />
     </div>
   )
 }

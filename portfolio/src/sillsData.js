@@ -2,6 +2,7 @@ const skillData = [
 {
     'name': "Front-End",
     'lang':'HTML, CSS, JavaScript, React'
+    
 },
 {
     'name':'Back-End',
