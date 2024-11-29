@@ -1,4 +1,4 @@
-
+import portfolio from './portfolio.png'
 
 const projectData = [
     {
@@ -10,6 +10,7 @@ const projectData = [
         "description": "Built a full-stack web application built using the MERN stack to help users track their income and expenses, also maintain their transaction."
     },
     {
+        "image": portfolio,
         'projectName': "Portfolio",
         "description": "A responsive portfolio website developed using React and CSS to showcase projects, skills."
     }

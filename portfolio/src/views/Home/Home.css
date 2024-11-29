@@ -1,0 +1,20 @@
+body{
+    position: relative;
+}
+
+.meander-art{
+    height: 300px;
+    color: white;
+    position: absolute;
+    left:1350px;
+    top: 200px;
+}
+
+@media screen and (max-width:600px){
+    .meander-art{
+        height: 200px;
+        left: 320px;
+        top: 260px;
+    }
+    
+}

@@ -1,0 +1,35 @@
+* {
+    text-decoration: none;
+    margin: 0;
+}
+
+.footer-container {
+    background-image: linear-gradient(85.2deg, rgba(33, 3, 40, 1) 7.5%, rgba(65, 5, 72, 1) 88.7%);
+    padding: 16px;
+    color: white;
+
+}
+
+.list-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list {
+    margin: 10px 20px;
+    font-size: 22px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.footer-end {
+    text-align: center;
+}
+
+@media screen and (max-width:600px) {
+    .footer-end {
+        font-size: 14px;
+    }
+
+}

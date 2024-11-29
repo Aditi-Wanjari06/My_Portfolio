@@ -1,85 +1,61 @@
-.edu-heading {
-    font-size: 35px;
-    text-align: start;
-    font-family: "ADLaM Display", system-ui;
-    font-weight: 800;
-    font-style: normal;
+.education {
+    background-color: white;
+    color: black;
+
+}
+
+.top-container{
+    display: flex;
+    align-items: center;
 }
 
 .education-container {
-    color: black;
-    background-color: white;
-    padding: 15px;
-    margin: 8px auto;  
-}
-
-.education-container h2 {
-    margin-bottom: 10px;
-    color: black;
-}
-
-.timeline-items {
-    max-width: 1200px;
-    margin: auto;
     display: flex;
     flex-wrap: wrap;
-    position: relative;
-    color: black;
+    gap: 40px;
+    justify-content: center;
+    padding: 25px;
 }
 
-.timeline-item {
-    width: 48%; 
-    box-sizing: border-box; 
-    position: relative;
-    margin-bottom: 20px; 
+.edu-heading {
+    text-align: start;
+    margin-left: 20px;
+    font-family: "ADLaM Display", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
 }
 
-.timeline-item:nth-child(odd) {
-    padding-right: 15px; 
-}
+.education-card {
 
-.timeline-item:nth-child(even) {
-    padding-left: 15px; 
-}
-
-.timeline-content {
-    border: 2px solid black;
-    padding: 15px 25px;
-    border-radius: 4rem;
-    cursor: pointer;
+    border-radius: 50px;
+    box-shadow: 1px 1px 3px 3px rgb(85, 2, 85);
+    padding: 6px;
+    text-align: center;
+    width: 350px;
     transition: 0.3s ease-in-out;
-    color: black;
-    background-color: white; 
+
 }
 
-.timeline-content:hover {
+.education-card:hover {
     transform: scale(1.05);
 }
 
-.timeline-content h3 {
+.edu-date {
+    font-style: italic;
+}
+
+.education-card h2 {
     font-size: 20px;
-    margin: 0 0 10px;
+}
+
+.edu-marks {
     font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.timeline-content p {
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 22px;
-}
-
-@media screen and (max-width: 600px) {
-    .timeline-item {
-        width: 100%;
-        padding: 10px; 
-    }
-
-    .timeline-content h3 {
-        font-size: 16px;
-    }
-
-    .timeline-content p {
-        font-size: 14px;
-        line-height: 20px;
+@media screen and (max-width:600px) {
+    .edu-heading {
+        font-size: 35px;
     }
 }

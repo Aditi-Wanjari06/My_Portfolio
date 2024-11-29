@@ -1,6 +1,7 @@
 import React from 'react'
 import './Skill.css'
 import skillData from '../../sillsData'
+import skillImg from './skill.png'
 import { FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaNodeJs, FaGithub } from 'react-icons/fa';
 import { SiExpress, SiMongodb, SiVisualstudiocode, SiNetlify } from 'react-icons/si';
 
@@ -18,9 +19,13 @@ const techIcons = {
 };
 
 function Skill() {
+
   return (
     <div>
+      <div className='top-container'>
     <h1 className='skill-heading'>Skills</h1>
+    <img src={skillImg} alt='skill-icon'  style={{height:'50px', margin:'3px'}}/>
+    </div>
     <div className='skill-container'>
      
       {skillData.map((skillDetails, index)=>{
@@ -29,7 +34,6 @@ function Skill() {
          
           <h3 className='skill-name'>{skillDetails.name}</h3>
           
-          {/* <p className='skill-lang'>{skillDetails.lang}</p> */}
           <div className="skill-lang">
               {skillDetails.lang.split(',').map((tech, idx) => (
                 <div key={idx} className="tech-item">

@@ -1,6 +1,8 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import './Contact.css'
+import contactImg from './customer-service.png'
+
 function Contact() {
 
     const form = useRef();
@@ -24,9 +26,17 @@ function Contact() {
     };
 
     return (
+    <div>
+           <div className='top-container'>
+        <h1 className='contact-headng'>Contact</h1>
+        <img src={contactImg} alt='contact-icon'  style={{height:'50px', margin:'3px'}}/>
+        </div>
+        <p className='contact-para'>Feel free to reach out to me for any questions or opportunities!</p>
+       
         <div className='form-container'>
+        
             <form ref={form} onSubmit={sendEmail}  >
-            <h1>Contact Me</h1>
+            <h1>Email Me 📧</h1>
            
                 <input type="text" name="from_name" placeholder='Your Name' className='field name' required/>
                
@@ -39,7 +49,7 @@ function Contact() {
               </div>
             </form>
             </div>
-        
+            </div>
     )
 }
 

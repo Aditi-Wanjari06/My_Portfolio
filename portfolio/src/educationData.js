@@ -1,26 +1,30 @@
 const educationData = [
     {
-        'date': 2021,
-        'title': 'High School',
-        'content': 'There are so many great short stories that I was unable to trim the list to 100 titles; so here are 160 Great Short Stories for you to enjoy.'
+        'date': 2016,
+        'title': 'Secondary (Class 10th)',
+        'content': 'Maharashtra State Board',
+        'marks': '94.00%'
     },
 
     {
-        'date': 2021,
-        'title': 'High School',
-        'content': 'There are so many great short stories that I was unable to trim the list to 100 titles; so here are 160 Great Short Stories for you to enjoy.'
+        'date': 2019,
+        'title': 'Senior Secondary (12th Science)',
+        'content': 'Maharashtra State Board',
+         'marks': '88.15%'
     },
 
     {
-        'date': 2021,
-        'title': 'High School',
-        'content': 'There are so many great short stories that I was unable to trim the list to 100 titles; so here are 160 Great Short Stories for you to enjoy.'
+        'date': 2020,
+        'title': 'Bachelors of Science(B.Sc)-PCM',
+        'content': 'Shri. Shivaji Science College,Nagpur University (RTMNU)',
+         'marks': '80.22%'
     },
 
     {
-        'date': 2021,
-        'title': 'High School',
-        'content': 'There are so many great short stories that I was unable to trim the list to 100 titles; so here are 160 Great Short Stories for you to enjoy.'
+        'date': '2023-Present',
+        'title': 'Masters in Computer Application (MCA)',
+        'content': 'G.H.Raisoni College Amravati University, Nagpur ',
+         'marks': '9.32 CGPA (Year-1)'
     }
 ]
 

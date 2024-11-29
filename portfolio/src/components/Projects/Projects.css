@@ -3,6 +3,11 @@
     color: black;
 }
 
+.top-container{
+    display: flex;
+    align-items: center;
+  }
+  
 .project-container {
     display: flex;
     flex-wrap: wrap;
@@ -13,33 +18,46 @@
 
 .project-heading {
     text-align: start;
-    margin-bottom: 20px;
     margin-left: 20px;
     font-family: "ADLaM Display", system-ui;
     font-weight: 400;
     font-style: normal;
+    font-size: 40px;
 }
 
 .project-card {
-    border: 2px solid black;
-    padding: 10px;
+
+    padding: 14px;
     width: 250px;
-    height: 300px;
+    height: 320px;
     border-radius: 40px;
+    /* box-shadow: 2px 2px 3px 3px rgb(85, 2, 85); */
+    box-shadow: 1px 1px 3px 3px rgb(85, 2, 85);
+}
+
+.project-img {
+    height: 120px;
+    width: 230px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 6px 6px grey;
+    margin: 2px auto;
+    display: block;
+    justify-content: center;
 }
 
 .project-title {
     text-align: center;
+    font-size: 25px;
 }
 
 .project-description {
-    padding: 10px;
-    font-size: 17px;
+    padding: 5px;
+    font-size: 16px;
 }
 
 @media screen and (max-width:600px) {
 
-    .project-heading{
+    .project-heading {
         font-size: 35px;
         font-weight: 400;
     }
