@@ -24,7 +24,7 @@ function Contact() {
     };
 
     return (
-        
+        <div className='form-container'>
             <form ref={form} onSubmit={sendEmail}  >
             <h1>Contact Me</h1>
            
@@ -38,7 +38,7 @@ function Contact() {
               <button type='submit' value='send'  className='btn-send'>Send</button>
               </div>
             </form>
-     
+            </div>
         
     )
 }

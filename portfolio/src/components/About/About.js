@@ -6,7 +6,7 @@ function About() {
     <div className='about-container'>
         <div className='about'>
         <h1>Hi, I am <br/> Aditi Wanjari</h1>
-        <p>To acquire practical, real-world skills in every domain <br/>I engage with, seeking a challenging career path that fosters <br />continuous professional growth and allows me to make <br />valuable contributions to the esteemed organization I work for.</p>
+        <p>To acquire practical, real-world skills in every domain engage with,  Iseeking a challenging career path that fosters continuous professional growth and allows me to make valuable contributions to the esteemed organization I work for.</p>
         {/* <p>I develop web applications using MERN Stack, <br />but I mostly love working on the front-end using CSS and React.</p> */}
         </div>
         <div>

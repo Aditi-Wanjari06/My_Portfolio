@@ -1,24 +1,24 @@
-.edu-heading{
-    font-size: 30px;
+.edu-heading {
+    font-size: 35px;
     text-align: start;
     font-family: "ADLaM Display", system-ui;
-    font-weight: 400;
+    font-weight: 800;
     font-style: normal;
 }
 
-.education-container{
-     color: black;
+.education-container {
+    color: black;
     background-color: white;
-    padding: 20px;
-    margin:10px auto;
+    padding: 15px;
+    margin: 8px auto;  
 }
 
-.education-container h2{
+.education-container h2 {
     margin-bottom: 10px;
     color: black;
 }
 
-.timeline-items{
+.timeline-items {
     max-width: 1200px;
     margin: auto;
     display: flex;
@@ -27,79 +27,59 @@
     color: black;
 }
 
-.timeline-items::before{
-    content: "";
-    position: absolute;
-    width: 5px;
-    height: 100%;
-}
-
-.timeline-item{
-   
-    width: 50%;
+.timeline-item {
+    width: 48%; 
+    box-sizing: border-box; 
     position: relative;
+    margin-bottom: 20px; 
 }
 
-.timeline-item:last-child{
-    margin-bottom: 0;
-
+.timeline-item:nth-child(odd) {
+    padding-right: 15px; 
 }
 
-.timeline-item:nth-last-child(odd){
-    padding-right: calc(50%+30px);
-   
+.timeline-item:nth-child(even) {
+    padding-left: 15px; 
 }
 
-.timeline-item:nth-last-child(even){
-    padding-left: calc(50% + 30px);
-    
-}
-
-
-.timeline-date{
-    font-size: 20px;
-    font-weight: 800;
-    margin: 6px 0 15px;
-}
-
-.timeline-content{
-  border: 2px solid black;
+.timeline-content {
+    border: 2px solid black;
     padding: 15px 25px;
     border-radius: 4rem;
     cursor: pointer;
     transition: 0.3s ease-in-out;
     color: black;
+    background-color: white; 
 }
 
-.timeline-content:hover{
+.timeline-content:hover {
     transform: scale(1.05);
-    /* box-shadow: 0 0 25px ; */
 }
 
-.timeline-content h3{
+.timeline-content h3 {
     font-size: 20px;
-
     margin: 0 0 10px;
     font-weight: 500;
 }
 
 .timeline-content p {
-  
     font-size: 16px;
     font-weight: 300;
     line-height: 22px;
 }
 
-::-webkit-scrollbar{
-    
-   width: 15px;
-}
+@media screen and (max-width: 600px) {
+    .timeline-item {
+        width: 100%;
+        padding: 10px; 
+    }
 
-::-webkit-scrollbar-thumb{
-    background-color: blueviolet;
-}
+    .timeline-content h3 {
+        font-size: 16px;
+    }
 
-::-webkit-scrollbar-track{
-    background-color:black;
-    width: 50px;
+    .timeline-content p {
+        font-size: 14px;
+        line-height: 20px;
+    }
 }
