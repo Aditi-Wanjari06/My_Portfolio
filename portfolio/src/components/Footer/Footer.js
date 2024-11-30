@@ -1,6 +1,5 @@
 import React from 'react'
 import './Footer.css'
-import { Link } from 'react-router-dom'
 import insta from './instagram.png'
 import email from './gmail.png'
 import github from './github.png'
@@ -9,53 +8,52 @@ import linkedin from './linkedin.png'
 
 function Footer() {
   const handleMailTo = (event) => {
-    // Prevent default routing behavior
     event.preventDefault();
-    window.location.href = "mailto:example@example.com";
+    window.location.href = "mailto:aditiwan2003@gmail.com";
   };
 
- 
-  
+
+
 
   return (
-   
+
     <div className='footer-container'>
-      
-         <ul type="none" className='list-container'>
-         <Link to="#" onClick={handleMailTo}>
-             <li className='list'>
-              <img src={email} alt='email'/>
-             </li>
-             </Link>
 
-             <Link to="https://github.com/Aditi-Wanjari06" target='_blank' >
-             <li className='list' >
-              <img src={github} alt='github'/>
-              </li>
-              </Link>
+      <ul type="none" className='list-container'>
+        <a href="mailto:aditiwan2003@gmail.com" onClick={handleMailTo} target='_blank' rel="noopener noreferrer">
+          <li className='list'>
+            <img src={email} alt='email' className='footer-icon' />
+          </li>
+        </a>
 
-              <Link to="www.linkedin.com/in/aditiwnjr06" target='_blank' >
-             <li className='list'>
-              <img src={linkedin}  alt='linkedIn'/>
-              </li>
-              </Link> 
+        <a href="https://github.com/Aditi-Wanjari06" target='_blank' rel="noopener noreferrer">
+          <li className='list' >
+            <img src={github} alt='github' className='footer-icon' />
+          </li>
+        </a>
 
-              <Link to="htps://www.instagram.com/aditi_wanjari06/" target='_blank' >
-             <li className='list' >
-              <img src={insta} alt='instagram'/>
-              </li>
-              </Link>
+        <a href="https://www.linkedin.com/in/aditiwnjr06/" target='_blank' rel="noopener noreferrer" >
+          <li className='list'>
+            <img src={linkedin} alt='linkedIn' className='footer-icon' />
+          </li>
+        </a>
 
-    
-         </ul>
-         
-       <p className='footer-end'> ©2024, All rights reserved.</p>
-        <p className='footer-end'>Designed & Developed By <br />Aditi Wanajri </p>
-  
-  
-        </div>
+        <a href="https://www.instagram.com/aditi_wanjari06/" target='_blank' rel="noopener noreferrer" >
+          <li className='list' >
+            <img src={insta} alt='instagram' className='footer-icon' />
+          </li>
+        </a>
 
- 
+
+      </ul>
+
+      <p className='footer-end'> ©2024, All rights reserved.</p>
+      <p className='footer-end'>Designed & Developed By <br />Aditi Wanjari </p>
+
+
+    </div>
+
+
   )
 }
 

@@ -1,6 +1,7 @@
 .project-page {
     background-color: white;
     color: black;
+    
 }
 
 .top-container {
@@ -82,5 +83,22 @@
     .project-heading {
         font-size: 35px;
         font-weight: 400;
+    }
+
+    .project-card{
+        width: 220px;
+        height: 280px;
+    }
+
+    .project-img{
+        height: 70px;
+    }
+
+    .project-title{
+        font-size: 23px;
+    }
+
+    .project-description{
+        font-size: 15px;
     }
 }

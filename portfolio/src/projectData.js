@@ -7,7 +7,7 @@ const projectData = [
     {
         "image": attendence,
         'projectName': "Cyber Attend",
-        "description": "Developed a MERN Stack based smart attendace system. The system records the live attendence using a GPS location.",
+        "description": "Developed a MERN Stack based smart attendence system. The system records the live attendence using a GPS location.",
         'link': github
     },
     {
@@ -19,7 +19,7 @@ const projectData = [
     {
         "image": portfolio,
         'projectName': "Portfolio",
-        "description": "A responsive portfolio website developed using React and CSS to showcase projects, skills.",
+        "description": "A responsive portfolio developed using React and CSS to showcase projects, skills.",
         'link': github
     }
 ]

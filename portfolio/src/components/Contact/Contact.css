@@ -89,6 +89,14 @@ form h1 {
     font-size: 17px;
     background-color: rgb(132, 6, 132);
     color: white;
+    cursor: pointer;
+}
+
+.btn-send:hover{
+    background-color: #b3b3cc;
+    color: black;
+    border-radius: 14px;
+    transition: 0.5s;
 }
 
 @media screen and (max-width:600px){
@@ -100,5 +108,9 @@ form h1 {
 
     .contact-headng{
         font-size: 35px;
+    }
+
+    form h1{
+        font-size: 24px;
     }
 }

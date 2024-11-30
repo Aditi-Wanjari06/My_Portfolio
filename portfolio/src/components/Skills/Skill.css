@@ -1,7 +1,7 @@
-.top-container{
+.top-container {
   display: flex;
   align-items: center;
-padding-top: 5px;
+  padding-top: 5px;
 }
 
 .skill-container {
@@ -33,28 +33,26 @@ padding-top: 5px;
   font-weight: 400;
   font-style: normal;
   animation-duration: 2s;
-    animation-name: sliding;
-    
+  animation-name: sliding;
+
 }
 
 @keyframes sliding {
-  from{
-      margin-left: 100%;
-  
+  from {
+    margin-left: 100%;
+
   }
-  to{
-      margin-left: 0%;
+
+  to {
+    margin-left: 0%;
   }
-  
-}  
+
+}
 
 .skill-name {
   color: rgb(141, 23, 141);
   font-size: 24px;
   margin-bottom: 12px;
-
-
-
 }
 
 .skill-lang {
@@ -73,7 +71,7 @@ padding-top: 5px;
 }
 
 .skill-icon {
-  font-size: 30px;
+  font-size: 40px;
   margin-bottom: 5px;
 }
 

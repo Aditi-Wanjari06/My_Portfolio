@@ -18,7 +18,7 @@ function Education() {
                         <div key={index} className="education-card">
                             <h2 className='edu-date'>{eduDetails.date}</h2>
                             <h2>{eduDetails.title}</h2>
-                            <p>➤ {eduDetails.content}</p>
+                            <p className='edu-content'>➤ {eduDetails.content}</p>
                            <p className='edu-marks'>➤ {eduDetails.marks}</p>
                         </div>
                        

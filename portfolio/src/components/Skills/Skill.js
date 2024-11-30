@@ -21,9 +21,9 @@ const techIcons = {
 function Skill() {
 
   return (
-    <div>
+    <div className='main-container'>
       <div className='top-container'>
-      <img src={skillImg} alt='skill-icon'  style={{height:'40px', margin:'3px'}}/>
+      <img src={skillImg} alt='skill-icon' style={{height:'45px', margin:'3px'}}/>
     <h1 className='skill-heading'>Skills</h1>
    
     </div>

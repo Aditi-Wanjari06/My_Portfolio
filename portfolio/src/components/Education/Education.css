@@ -71,4 +71,22 @@
     .edu-heading {
         font-size: 35px;
     }
+
+    .education-card{
+        padding: 3px 10px;
+        width: 280px;
+    }
+
+    .education-card h2{
+        font-size: 15px;
+    }
+
+    .edu-content{
+        font-size: 13px;
+    }
+
+    .edu-marks{
+        font-size: 14px;
+        margin: 5px;
+    }
 }
