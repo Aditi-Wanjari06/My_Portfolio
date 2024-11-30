@@ -28,8 +28,9 @@ function Contact() {
     return (
     <div>
            <div className='top-container'>
+           <img src={contactImg} alt='contact-icon'  style={{height:'40px', margin:'3px'}}/>
         <h1 className='contact-headng'>Contact</h1>
-        <img src={contactImg} alt='contact-icon'  style={{height:'50px', margin:'3px'}}/>
+       
         </div>
         <p className='contact-para'>Feel free to reach out to me for any questions or opportunities!</p>
        

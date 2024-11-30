@@ -7,8 +7,9 @@ function Education() {
     return (
         <div className='education'>
             <div className='top-container'>
+            <img src={eduImg} alt='education-icon'  style={{height:'40px', margin:'3px'}}/>
             <h1 className='edu-heading'>Education</h1>
-            <img src={eduImg} alt='education-icon'  style={{height:'50px', margin:'3px'}}/>
+           
             </div>
             
             <div className='education-container'>

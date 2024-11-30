@@ -3,11 +3,12 @@
     color: black;
 }
 
-.top-container{
+.top-container {
     display: flex;
     align-items: center;
-  }
-  
+
+}
+
 .project-container {
     display: flex;
     flex-wrap: wrap;
@@ -18,31 +19,44 @@
 
 .project-heading {
     text-align: start;
-    margin-left: 20px;
     font-family: "ADLaM Display", system-ui;
     font-weight: 400;
     font-style: normal;
     font-size: 40px;
+    animation-duration: 2s;
+    animation-name: sliding;
+}
+
+@keyframes sliding {
+    from {
+        margin-left: 100%;
+
+    }
+
+    to {
+        margin-left: 0%;
+    }
+
 }
 
 .project-card {
 
     padding: 14px;
     width: 250px;
-    height: 320px;
+    height: 300px;
     border-radius: 40px;
     /* box-shadow: 2px 2px 3px 3px rgb(85, 2, 85); */
     box-shadow: 1px 1px 3px 3px rgb(85, 2, 85);
 }
 
 .project-img {
-    height: 120px;
-    width: 230px;
+    height: 80px;
     border-radius: 10px;
-    box-shadow: 3px 3px 6px 6px grey;
+    box-shadow: 2px 2px 4px 4px grey;
     margin: 2px auto;
     display: block;
     justify-content: center;
+    margin-bottom: 10px;
 }
 
 .project-title {
@@ -53,6 +67,14 @@
 .project-description {
     padding: 5px;
     font-size: 16px;
+    margin-top: 10px;
+}
+
+.github-link{
+    height: 40px;
+    display: block;
+    justify-content: center;
+   margin: 5px auto;
 }
 
 @media screen and (max-width:600px) {

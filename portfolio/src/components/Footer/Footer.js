@@ -8,30 +8,39 @@ import linkedin from './linkedin.png'
 
 
 function Footer() {
+  const handleMailTo = (event) => {
+    // Prevent default routing behavior
+    event.preventDefault();
+    window.location.href = "mailto:example@example.com";
+  };
+
+ 
+  
+
   return (
    
     <div className='footer-container'>
       
          <ul type="none" className='list-container'>
-          <Link to = 'aditiwan2003@gmail.com'>
+         <Link to="#" onClick={handleMailTo}>
              <li className='list'>
               <img src={email} alt='email'/>
              </li>
              </Link>
 
-             <Link to = ''>
+             <Link to="https://github.com/Aditi-Wanjari06" target='_blank' >
              <li className='list' >
               <img src={github} alt='github'/>
               </li>
               </Link>
 
-              <Link to = ''>
+              <Link to="www.linkedin.com/in/aditiwnjr06" target='_blank' >
              <li className='list'>
               <img src={linkedin}  alt='linkedIn'/>
               </li>
-              </Link>
+              </Link> 
 
-              <Link to = ''>
+              <Link to="htps://www.instagram.com/aditi_wanjari06/" target='_blank' >
              <li className='list' >
               <img src={insta} alt='instagram'/>
               </li>

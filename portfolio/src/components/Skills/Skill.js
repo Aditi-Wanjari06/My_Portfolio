@@ -23,8 +23,9 @@ function Skill() {
   return (
     <div>
       <div className='top-container'>
+      <img src={skillImg} alt='skill-icon'  style={{height:'40px', margin:'3px'}}/>
     <h1 className='skill-heading'>Skills</h1>
-    <img src={skillImg} alt='skill-icon'  style={{height:'50px', margin:'3px'}}/>
+   
     </div>
     <div className='skill-container'>
      
