@@ -29,6 +29,8 @@
     text-align: center;
     margin-left: 20px;
     font-size: 20px;
+    font-family: "Parkinsans", sans-serif;
+    font-optical-sizing: auto;
 }
 
 .form-container {
@@ -68,11 +70,21 @@ form h1 {
 
 .name {
     border-radius: 10px 10px 0 0;
+    font-family: "Parkinsans", sans-serif;
+    font-optical-sizing: auto;
+    
+}
+
+.email{
+    font-family: "Parkinsans", sans-serif;
+    font-optical-sizing: auto;
 }
 
 .message {
     height: 40px;
     border-radius: 0 0 10px 10px;
+    font-family: "Parkinsans", sans-serif;
+    font-optical-sizing: auto;
 }
 
 .btn-container {
@@ -103,7 +115,8 @@ form h1 {
     .contact-para {
         text-align: start;
         margin-left: 20px;
-        font-size: 16px;
+        font-size: 15px;
+        margin-top: 8px;
     }    
 
     .contact-headng{
@@ -112,5 +125,17 @@ form h1 {
 
     form h1{
         font-size: 24px;
+    }
+
+    .name{
+        font-size: 13px;
+    }
+
+    .email{
+        font-size: 13px;
+    }
+
+    .message{
+        font-size: 13px;
     }
 }

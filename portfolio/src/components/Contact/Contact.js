@@ -52,6 +52,7 @@ function Contact() {
 
             </div>
             <p className='contact-para'>Feel free to reach out to me for any questions or opportunities!</p>
+           
 
             <div className='form-container'>
 

@@ -43,28 +43,37 @@
 
     border-radius: 50px;
     box-shadow: 1px 1px 3px 3px rgb(85, 2, 85);
-    padding: 6px;
+    padding: 8px;
     text-align: center;
     width: 350px;
-    transition: 0.3s ease-in-out;
+    transition: 0.2s ease-in-out;
 
 }
 
 .education-card:hover {
-    transform: scale(1.05);
+    transform: scale(1.02);
 }
 
 .edu-date {
     font-style: italic;
 }
 
+.edu-content{
+    font-size: 12px;
+    font-family: "Parkinsans", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>;
+  font-style: normal; */
+}
+
 .education-card h2 {
-    font-size: 20px;
+    font-size: 17px;
 }
 
 .edu-marks {
     font-weight: 500;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 5px;
 }
 
 @media screen and (max-width:600px) {

@@ -68,7 +68,11 @@
 .project-description {
     padding: 5px;
     font-size: 16px;
-    margin-top: 10px;
+    margin-top: 8px;
+    font-family: "Parkinsans", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>;
+  font-style: normal; */
 }
 
 .github-link{
@@ -87,7 +91,7 @@
 
     .project-card{
         width: 220px;
-        height: 280px;
+        height: 300px;
     }
 
     .project-img{

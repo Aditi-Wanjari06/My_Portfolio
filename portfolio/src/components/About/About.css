@@ -43,13 +43,17 @@
 
 .span-name {
     color: rgb(181, 15, 181);
-    
+
 }
 
 .about p {
     margin-top: 10px;
     font-size: 18px;
     text-align: start;
+    font-family: "Parkinsans", sans-serif;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    /* font-style: normal; */
 }
 
 .profile {
@@ -71,13 +75,15 @@
     font-weight: bold;
     font-size: 17px;
     cursor: pointer;
+    font-family: "Parkinsans", sans-serif;
+    font-optical-sizing: auto;
 }
 
 .btn-resume:hover {
     background: linear-gradient(to top right, #cc99ff 0%, #ffcccc 100%);
     border-radius: 0 15px 0 15px;
     transition: 0.5s;
-  
+
 }
 
 @media screen and (max-width : 600px) {
@@ -102,8 +108,8 @@
 
     }
 
-   .btn-resume{
-    padding: 6px 10px;
-    font-size: 15px;
-   }
+    .btn-resume {
+        padding: 6px 10px;
+        font-size: 15px;
+    }
 }
