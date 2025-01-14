@@ -15,7 +15,7 @@ function About() {
     </div>
     <div className='about-container'>
         <div className='about'>
-        <h1>Hi, I am <br/> <span className='span-name'>Aditi Wanjari!</span></h1>
+        <h1>Hi, I am <br/> <span className='span-name'>Aditi Wanjari!🙋‍♀️</span></h1>
         <p>I'm pursuing the masters degree in MCA from G.H.Raisoni, Amravati University, Nagpur. </p>
         
           <p>I'm a Full Stack Developer and to acquire practical, real-world skills in every domain engage with, I seeking a challenging career path that fosters continuous professional growth and allows me to make valuable contributions to the esteemed organization I work for.</p>
