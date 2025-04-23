@@ -10,7 +10,7 @@ const skillData = [
 },
 {
     'name':'Tools',
-    'lang': ' VS Code, GitHub, Netlify '
+    'lang': ' VS Code, GitHub, Netlify, Vercal '
 }
 
 

@@ -3,7 +3,7 @@ import './Skill.css'
 import skillData from '../../sillsData'
 import skillImg from './skill.png'
 import { FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaNodeJs, FaGithub } from 'react-icons/fa';
-import { SiExpress, SiMongodb, SiVisualstudiocode, SiNetlify } from 'react-icons/si';
+import { SiExpress, SiMongodb, SiVisualstudiocode, SiNetlify, SiVercel } from 'react-icons/si';
 
 const techIcons = {
   HTML: <FaHtml5 className="skill-icon" style={{ color: '#E34F26' }} />,
@@ -16,6 +16,7 @@ const techIcons = {
   'VS Code': <SiVisualstudiocode className="skill-icon" style={{ color: '#007ACC' }} />,
   GitHub: <FaGithub className="skill-icon" style={{ color: '#181717' }} />,
   Netlify: <SiNetlify className="skill-icon" style={{ color: '#38AFBB' }} />,
+  Vercal : <SiVercel className='skill-icon'/>
 };
 
 function Skill() {

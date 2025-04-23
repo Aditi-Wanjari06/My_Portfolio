@@ -1,7 +1,7 @@
 import portfolio from './portfolio.png'
 import expense from './control.png'
-import attendence from './verification.png'
 import github from './components/Footer/github.png'
+import todo from  "./to-do-list.png"
 
 const projectData = [
     {
@@ -11,9 +11,9 @@ const projectData = [
         'link': github
     },
     {
-        "image": attendence,
-        'projectName': "Cyber Attend",
-        "description": "Developed a MERN Stack based smart attendence system. The system records the live attendence using a GPS location.",
+        "image": todo,
+        'projectName': "ToDo App",
+        "description": "Developed an ToDo App based an Frontend. It helps users organize their daily tasks efficiently.",
         'link': github
     },
     {
