@@ -24,7 +24,8 @@ function Projects() {
               <img src={projectDetails.image} alt='overview' className='project-img' />
               <h3 className='project-title'>{projectDetails.projectName}</h3>
               <p className='project-description'>{projectDetails.description}</p>
-              <a  href="https://github.com/Aditi-Wanjari06" target='_blank' rel="noopener noreferrer"> 
+              {/* <a  href="https://github.com/Aditi-Wanjari06" target='_blank' rel="noopener noreferrer">  */}
+              <a  href={projectDetails.go} target='_blank' rel="noopener noreferrer"> 
               <img src={projectDetails.link} alt='github-link' className='github-link' />
               </a>
             </div>
