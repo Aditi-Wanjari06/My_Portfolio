@@ -1,15 +1,18 @@
 import React from 'react'
 import "./Projects.css"
-import projectData from '../../projectData'
-import projectImg from './task-management.png'
-
+import projectData from '../../projectData.js'
+// import projectImg from './task-management.png'
+import { Box } from 'lucide-react'
+  
 
 function Projects() {
   return (
     <div className='main-container'>
     <div className='project-page'>
       <div className='top-container'>
-        <img src={projectImg} alt='project-icon' style={{ height: '45px', margin: '3px' }} />
+        {/* <img src={projectImg} alt='project-icon' style={{ height: '45px', margin: '3px' }} /> */}
+        <Box className="project-icon" />
+
         <h1 className='project-heading'>Projects</h1>
 
       </div>

@@ -2,7 +2,8 @@ import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import './Contact.css'
 import { toast, Toaster } from 'react-hot-toast';
-import contactImg from './customer-service.png'
+// import contactImg from './customer-service.png'
+import { Mail } from 'lucide-react';
 
 function Contact() {
     const form = useRef();
@@ -47,7 +48,9 @@ function Contact() {
     return (
         <div >
             <div className='top-container'>
-                <img src={contactImg} alt='contact-icon' style={{ height: '40px', margin: '3px' }} />
+                {/* <img src={contactImg} alt='contact-icon' style={{ height: '40px', margin: '3px' }} /> */}
+        <Mail className="mail-icon"/>
+
                 <h1 className='contact-headng'>Contact</h1>
 
             </div>
