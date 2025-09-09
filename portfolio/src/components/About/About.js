@@ -3,7 +3,7 @@ import "./About.css";
 // import aboutImg from './about.png'
 import { User } from "lucide-react";
 // import myImg from './aditi.png'
-import Resume from "./Resume2.pdf";
+import Resume from "./Resume-2.pdf";
 
 function About() {
   return (
