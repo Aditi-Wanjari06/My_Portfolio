@@ -3,7 +3,7 @@ const educationData = [
     date: "2023-2025",
     title: "Masters in Computer Application",
     content: "G.H.Raisoni College Amravati University, Nagpur ",
-    marks: "9.32 CGPA ",
+    marks: "9.33 CGPA ",
   },
   {
     date: "2020-2023",

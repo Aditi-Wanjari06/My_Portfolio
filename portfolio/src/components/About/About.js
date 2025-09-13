@@ -3,7 +3,7 @@ import "./About.css";
 // import aboutImg from './about.png'
 import { User } from "lucide-react";
 // import myImg from './aditi.png'
-import Resume from "./Resume-2.pdf";
+import Resume from "./Resume.pdf";
 
 function About() {
   return (
@@ -26,7 +26,7 @@ function About() {
           </p>
 
           <p>
-            Seeking an entry-level developer role to acquire practical skills in every domain I engage with, while pursuing a challenging career path that fosters continuous professional growth and allows me to make valuable contributions to the esteemed organization I work for.
+            Seeking an entry-level developer role to acquire practical, real-world skills.I aim to pursue a challenging career path that fosters continuous professional growth while enabling to make valuable contributions to the organization's success.
             {/* Passionate about building responsive and user-friendly web
             applications. Seeking an entry-level developer role to acquire
             practical, real-world skills in every domain I enagage with, seeking
