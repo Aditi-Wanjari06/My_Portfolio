@@ -20,22 +20,22 @@ function About() {
             <span className="span-name underline-anim">Aditi Wanjari!🙋‍♀️</span>
           </h1>
           <p>
-            Recently completed Master's Degree in MCA from G.H. Raisoni University, Amravati, Nagpur. Passionate about building responsive and user-friendly web applications. Currently doing an internship as a Software Developer at Perla IT, where I am gaining hands-on experience in real-world projects.
-            {/* Recently completed Master's Degree in MCA from G.H.Raisoni,
-            University Amravati, Nagpur . */}
+            A passionate Software Developer and MCA
+            postgraduate student based in Nagpur. With a strong academic
+            foundation (CGPA 9.33) and hands-on experience in full-stack
+            development, I specialize in building scalable web applications
+            using the MERN Stack, TypeScript, and PostgreSQL.
           </p>
-
           <p>
-            Seeking an entry-level developer role to acquire practical, real-world skills.I aim to pursue a challenging career path that fosters continuous professional growth while enabling to make valuable contributions to the organization's success.
-            {/* Passionate about building responsive and user-friendly web
-            applications. Seeking an entry-level developer role to acquire
-            practical, real-world skills in every domain I enagage with, seeking
-            a challenging career path that fosters continuous professional
-            growth and allows me to make valuable contributions to the esteemed organization I work for. */}
-            {/* Dedicated to acquire practical, real-world skills in every domain
-            engage with, I seeking a challenging career path that fosters
-            continuous professional growth and allows me to make valuable
-            contributions to the esteemed organization I work for. */}
+            Currently, I am working as a Software Developer Intern at Perla IT,
+            where I contribute to live projects including a Document Management
+            System (DMS). My work involves designing responsive dashboards,
+            integrating RESTful APIs, and researching advanced technologies like
+            OCR and Active Directory integration for secure authentication. I
+            thrive on solving complex problems and creating intuitive user
+            experiences. When I'm not coding, I'm exploring new technologies to
+            enhance my skill set. I'm always open to collaborating on innovative
+            projects!"
           </p>
         </div>
         {/* <div>
@@ -53,3 +53,15 @@ function About() {
 }
 
 export default About;
+
+{
+  /* <p>
+            Recently completed Master's Degree in MCA from G.H. Raisoni University, Amravati, Nagpur. Passionate about building responsive and user-friendly web applications. Currently doing an internship as a Software Developer at Perla IT, where I am gaining hands-on experience in real-world projects.
+          
+          </p>
+
+          <p>
+            Seeking an entry-level developer role to acquire practical, real-world skills.I aim to pursue a challenging career path that fosters continuous professional growth while enabling to make valuable contributions to the organization's success.
+           
+          </p> */
+}
